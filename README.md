@@ -13,4 +13,14 @@ Mathematically, let $(yi,xi)$, with $i = 1,...,n = 339$, denote the $ith$ observ
 
 ![](images/brain.png)
 
-**Data** is located [here](./datasets/)
+**Datasets** located [here](./datasets/)
+
+The dataset is stored in the file includes the following R objects:
+
+AD_360_training.csv: A CSV file (with header) where the $ith$ row consists of the outcome and the 360 cortical thickness measurements of the $ith$ subject in the **training set**;
+AD_360_test_predictors.csv: A CSV file (with header) where the $ith$ row consists of the 360 cortical thickness measurements of the $ith$ subject in the **test set**; the outcomes for the 145 subjects in the test set are not provided. 
+
+## Accuracy on a blinded test set 
+
+For the 145 observations in the test set, you will need to compute the <span style="color:red"> **predicted probabilites of AD** </span> and submit them to Canvas three times during the course. We will use your predicted probabilities and the true labels to calculate AUC of your current model. Before submitting, save your predictions in a text file with 145 rows, 
+**where the j-th row contains a number between 0 and 1, representing the predicted probability for the j-th subject in the test set**.
