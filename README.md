@@ -11,4 +11,4 @@ More about data collection and preprocessing in this [paper](https://www.pnas.or
 
 Mathematically, let $(yi,xi)$, with $i = 1,...,n = 339$, denote the $ith$ observation in the dataset. Here, $xi$, is a vector of length 360 containing the 360 cortical thickness measurements for the $ith$ subject. We can think of these measurements as 360 `variables` (given that the 360 regions where these measurements are taken in are correspondence across subjects). The variable $yi \in$*{C,AD}* is a categorical outcome: Control vs Alzheimer's Disease.
 
-
+![](images/brain.png)
