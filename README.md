@@ -13,7 +13,7 @@ Mathematically, let $(yi,xi)$, with $i = 1,...,n = 339$, denote the $ith$ observ
 
 ![](images/brain.png)
 
-**Dataset** located [here](./datasets/)
+**Dataset** located [here](./blinded_predictions/datasets)
 
 The dataset is stored in the file includes the following R objects:
 
