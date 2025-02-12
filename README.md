@@ -22,5 +22,17 @@ AD_360_test_predictors.csv: A CSV file (with header) where the $ith$ row consist
 
 ## Accuracy on a blinded test set 
 
-For the 145 observations in the test set, you will need to compute the <span style="color:red"> **predicted probabilites of AD** </span> and submit them to Canvas three times during the course. We will use your predicted probabilities and the true labels to calculate AUC of your current model. Before submitting, save your predictions in a text file with 145 rows, 
-**where the j-th row contains a number between 0 and 1, representing the predicted probability for the j-th subject in the test set**.
+For the 145 observations in the test set, you will need to compute the **predicted probabilities of AD** and submit them to Canvas three times during the course. We will use your predicted probabilities and the true labels to calculate AUC of your current model. Before submitting, save your predictions in a text file with 145 rows, **where the j-th row contains a number between 0 and 1, representing the predicted probability for the j-th subject in the test set**. This text file is the only file you may submit. Additionally, include a one- or two-sentence comment in your Canvas submission describing the model used to generate your predictions. 
+
+**Note**: Your prediction accuracy score won't negatively impact your final project grade. This is intended to reproduce a realistic scenario. However, top-scoring models may receive extra credits and we may ask some of those students to briefly present their models to the class 
+
+## Report 
+
+You have to submit a final report via Canvas by March 16. This report should describe your statistical analysis. The maximum length of the report is 5 pages (A4 format, single-spaced, figures and tables included), with top and bottom margins of 1 inch and side margins of 1 1/4 inches. The minimum font size allowed is 11pt. 
+
+## Recommended Report structure 
+  - Short abstract
+  - Very brief introduction
+  - Data analysis
+  - Results and conclusions 
+
