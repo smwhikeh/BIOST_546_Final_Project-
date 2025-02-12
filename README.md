@@ -18,6 +18,7 @@ Mathematically, let $(yi,xi)$, with $i = 1,...,n = 339$, denote the $ith$ observ
 The dataset is stored in the file includes the following R objects:
 
 AD_360_training.csv: A CSV file (with header) where the $ith$ row consists of the outcome and the 360 cortical thickness measurements of the $ith$ subject in the **training set**;
+
 AD_360_test_predictors.csv: A CSV file (with header) where the $ith$ row consists of the 360 cortical thickness measurements of the $ith$ subject in the **test set**; the outcomes for the 145 subjects in the test set are not provided. 
 
 ## Accuracy on a blinded test set 
